@@ -7,9 +7,28 @@
     <script src="/js/vue.min.js"></script>
 </head>
 <body class="exercicio">
-
+    <div id="app">
+        <a v-bind:href="link" target="_blank">GitHub</a> 
+		<a :href="linkb" target="_blank">LinkedIn</a> 
+        <p>
+            <input type="text" v-model="nome"></br>
+            <span>{{nome}}</span>
+        </p>
+    </div>
     <script>
-        // ...
+        new Vue ({
+            el: "#app",
+            data: {
+                nome: "Larissa",
+                link: "https://github.com/larrydiniz",
+				linkb: "https://www.linkedin.com/in/larrydiniz/"
+            },
+            watch: {
+                nome(novoValor){
+                    console.log(novoValor.toUpperCase())
+                }
+            }
+        })
     </script>
 </body>
 </html>
