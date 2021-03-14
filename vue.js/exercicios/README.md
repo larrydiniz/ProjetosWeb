@@ -8,3 +8,7 @@
 ```
 npm run exercicios
 ```
+### Parar o servirdor (Windows)
+```
+Ctrl + c
+```
