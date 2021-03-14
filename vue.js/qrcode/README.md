@@ -1,7 +1,8 @@
 [Home](https://github.com/larrydiniz/ProjetosWeb)
 # Exercícios
 
-<img src="https://user-images.githubusercontent.com/66534830/111086082-31abd500-84f9-11eb-9828-fc39a8bf2438.png" height="400px">
+<img src="https://user-images.githubusercontent.com/66534830/111086571-8f412100-84fb-11eb-8c95-fb71367572dd.png" height="400px">
+
 
 ## Como rodar
 ### Rodar o servirdor
