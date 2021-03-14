@@ -8,21 +8,36 @@
   }
 
 body {
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     
     color: #FFF;
     background: linear-gradient(to right, rgb(19, 106, 138), rgb(38, 120, 113));
 }
 
+#app{
+  padding: 50px;
+  background: #ffffff36;
+  border-radius: 50px;
+}
+
 input {
-    font-size: 2em;
+    width: 320px;
+    font-size: 1.2em;
     margin-bottom: 30px;
+    border-radius: 8px;
+    border: transparent;
+    padding: 5px;
 }
 
 .output {
-    border: 1px solid #222;
-    padding: 30px 15px;
-    background-color: #0006;
+    margin: auto;
+    padding: 15px;
+}
+
+.output img {
+  width: 330px;
 }
