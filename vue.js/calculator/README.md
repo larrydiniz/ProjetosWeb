@@ -1,24 +1,23 @@
-# calculator
+[Home](https://github.com/larrydiniz/ProjetosWeb)
+# Calculadora
 
-## Project setup
+![image](https://user-images.githubusercontent.com/66534830/111085443-299e6600-84f6-11eb-8498-f67fe74007d3.png)
+
+
+## Como rodar
+### Instalar depêndencias
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Rodar o servirdor
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Build
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Configuração customizada
+[Configuration Reference](https://cli.vuejs.org/config/).
