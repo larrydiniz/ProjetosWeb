@@ -8,3 +8,4 @@ Este repositório contém exercícios e projetos simples dos principais framewor
 &nbsp; &nbsp; &nbsp; [Gerador de QRCode](/vue.js/qrcode) </br>
 &nbsp; &nbsp; &nbsp; [Relatório de Vendas](/vue.js/sales) </br>
 &nbsp; &nbsp; [Calculadora](/vue.js/calculator) </br>
+&nbsp; &nbsp; [Monty Hall](/vue.js/montyhall) </br>
