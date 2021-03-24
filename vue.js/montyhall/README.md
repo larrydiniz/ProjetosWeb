@@ -1,24 +1,23 @@
-# montyhall
+[Home](https://github.com/larrydiniz/ProjetosWeb)
+# Monty Hall
 
-## Project setup
+![image](https://user-images.githubusercontent.com/66534830/112234623-ad093700-8c1b-11eb-95ea-c64efc9c8ce8.png)
+
+
+## Como rodar
+### Instalar depêndencias
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Rodar o servirdor
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Build
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Configuração customizada
+[Configuration Reference](https://cli.vuejs.org/config/).
