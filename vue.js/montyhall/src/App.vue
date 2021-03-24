@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <h1>Monty Hall</h1>
+    <h1>É a porta dos desesperados!</h1>
     <div class="form">
       <div v-if="!started">
-        <label for="portsAmount">Quantas portas?</label>
-        <input type="text" id="portsAmount" size="3" v-model.number="portsAmount">
+        <label for="portsAmount">Quantas portas deseja?</label>
+        <input type="text" id="portsAmount" v-model.number="portsAmount">
       </div>
       <div v-if="!started">
         <label for="selectedPort">Qual é a porta premiada?</label>
-        <input type="text" id="selectedPort" size="3" v-model.number="selectedPort">
+        <input type="text" id="selectedPort" v-model.number="selectedPort">
       </div>
       <button v-if="!started" @click="started = true">Iniciar</button>
       <button v-if="started" @click="started = false">Reiniciar</button>
@@ -46,7 +46,7 @@ export default {
 }
 body {
     color: #FFF;
-    background: linear-gradient(to right, rgb(94, 177, 135), rgb(91, 147, 204));
+    background: linear-gradient(to right, rgb(79, 182, 130), rgb(64, 124, 185));
 }
 #app {
     display: flex;
@@ -54,22 +54,51 @@ body {
     align-items: center;
 }
 #app h1 {
-    border: 1px solid #000;
     background-color: #0004;
+    border-radius: 33px;
     padding: 20px;
     margin-bottom: 60px;
 }
 .form {
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
 }
-.form, .form input, .form button {
+
+.form{
     margin-bottom: 10px;
     font-size: 2rem;
 }
+
+.form div{
+  align-self: flex-start;
+}
+
+.form input{
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.555);
+  border-radius: 8px;
+  background: transparent;
+  padding: 0 10px;
+  width: 50px;
+}
+
+.form button{
+  font-size: 1.5rem;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.151);
+  border-radius: 15px;
+  border: transparent;
+}
+
 .doors {
     align-self: stretch;
     display: flex;
